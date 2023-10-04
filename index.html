@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="dog.png">
+    <title>Encuesta</title>
+</head>
+<body>
+  <header class="header">
+    <div><h1 id="title">Doggie Survey Form</h1><div>
+    <div><p id="description">Hello, I'm Chamber, help me in this survey to find out what your tastes are in dogs :3</p><div>
+  </header>
+  <main>
+    <form id="survey-form" class="form">
+      <div class="form-group"><label id="name-label">Name</label><input type="text" id="name" required placeholder="Enter your name"/></div>
+      <div class="form-group"><label id="email-label">Email</label><input type="email" id="email" required placeholder="Enter your email"/></div>
+      <div class="form-group"><label id="number-label">Age (optional)</label><input type="number" id="number" min="18" max="120" placeholder="Age"/></div>
+      <div class="form-group"><p>Choose your favorite food if you were a dog</p>
+        <select id="dropdown" required>
+            <option disabled selected value>Select your food :D</option>
+            <option>Little bone</option>
+            <option>Soup</option>
+            <option>Dog food</option>
+            <option>Meat</option>
+        </select></div>
+      <div class="form-group"><p>What hobby would you take up if you were a dog?</p>
+        <label><input class="input-radio" type="radio" name="marca" value="paseo"/> Sightseeing<br></label>
+        <label><input class="input-radio" type="radio" name="marca" value="casa"/> Play at home<br></label>
+        <label><input class="input-radio" type="radio" name="marca" value="bañarse"/> Take a bath<br></label></div>
+      <div class="form-group"><p>Choose your favorite breed :D</p>
+        <select id="dropdown" required>
+            <option disabled selected value>Select your dog breed :D</option>
+            <option>Labrador</option>
+            <option>Saint Bernard</option>
+            <option>Doberman</option>
+            <option>Pitbull</option>
+        </select></div>
+      <div class="form-group"><p>Where do dogs usually sleep?</p>
+        <label><input class="input-checkbox" type="checkbox" value="cama-de-Kevin"> My bed<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="cama-de-Alex"> My brother's bed<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="sala"> Living room<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="taller"> Work zone<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="cama-de-Chamber"> Puppy bed<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="mesa"> Table<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="baño"> Bathroom<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="suelo"> Floor<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="escalera"> Stairs<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="cama-de-papa-y-mama"> My parents bed<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="sillon"> Armchair<br></label>
+        <label><input class="input-checkbox" type="checkbox" value="pasadizo"> Passage<br></label></div>
+      <div class="form-group"><p>Any comments to improve this survey?</p>
+        <label><textarea name="comentario" id="comentarios" cols="30" rows="10" placeholder="Enter your comment here..."></textarea></label></div>
+      <div class="form-group"><button type="submit" id="submit" class="submit-buttom"> Submit</button></div>
+    </form>
+  </main>
+</body>
+</html>

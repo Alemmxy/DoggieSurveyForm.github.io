@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(115deg, rgba(58, 58, 158, 0.6), rgba(136, 136, 206, 0.6)),url(https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/noticias/pelo_labrador_perro.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 1.875rem;
+    line-height: 1.6;
+}
+
+form {
+    width: 730px;
+    height: auto;
+    padding: 2.5rem;
+    background-color: rgba(17, 17, 88, 0.8);
+    margin: auto;
+    border-radius: 8px;
+    line-height: 2.0;
+    box-sizing: border-box;
+}
+
+form p {
+    display: block;
+    font-family: inherit;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    display: flex;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.input-radio, .input-checkbox {
+    min-height: 1.3rem;
+    min-width: 1.3rem;
+    margin-right: 0.625rem;
+}
+
+#name {
+    width: 100%;
+    padding: 0.625rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 120px;
+    border-radius: 8px;
+}
+
+#email {
+    width: 100%;
+    padding: 0.625rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 120px;
+    border-radius: 8px;
+}
+
+#number {
+    width: 100%;
+    padding: 0.625rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 120px;
+    border-radius: 8px;
+}
+
+#comentarios {
+    width: 100%;
+    padding: 0.625rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 120px;
+    border-radius: 8px;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 0.625rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 120px;
+    border-radius: 8px;
+}
+
+#checkbox {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#submit {
+    width: 100%;
+    padding: 0.625rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 120px;
+    background-color: #37af65;
+    color: white;
+}
+
+#name-label {
+    box-sizing: border-box;
+}
